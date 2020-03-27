@@ -1,0 +1,30 @@
+.button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  display: block;
+  cursor: pointer;
+}
+
+.button:focus {
+  outline-color: greenyellow;
+}
+.btn-add {
+ width: 38px;
+ height: 18px;
+ border: 1px solid #FFFFFF;
+ margin-top: 24px;
+ background-color: #000;
+ cursor: pointer;
+}
+.btn-add:focus {
+  outline-color: greenyellow;
+}
+
+.button-edit {
+ background-color: transparent;
+ cursor: pointer;
+}

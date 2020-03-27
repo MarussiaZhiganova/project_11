@@ -1,0 +1,21 @@
+.popup__close {
+  width: 26px;
+  position: absolute;
+  top: -26px;
+  right: -26px;
+  cursor: pointer;
+}
+.popup-edit__close {
+  width: 26px;
+  position: absolute;
+  top: -26px;
+  right: -26px;
+  cursor: pointer;
+}
+.popup-image__close {
+  width: 26px;
+  position: absolute;
+  top: -13px;
+  right: 380px;
+  cursor: pointer;
+}
