@@ -1,4 +1,4 @@
-class Validator {
+export class Validator {
     constructor(popupElement,error,inputName,inputUrl,ERROR_MESSAGES) {
       this.ERROR_MESSAGES = ERROR_MESSAGES;
       this.error = error;
@@ -57,4 +57,4 @@ class Validator {
         this.setEventListener = () => (this.formAdd);
       })
     }
-  }
+}

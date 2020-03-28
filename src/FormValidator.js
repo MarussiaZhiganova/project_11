@@ -1,4 +1,4 @@
-class FormValidator {
+export class FormValidator {
   constructor(popupElement, userInfoParam) {
     this.userInfoParam = userInfoParam;
     this.form = popupElement.querySelector('.popup-edit__form');

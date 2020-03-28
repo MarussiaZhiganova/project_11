@@ -1,5 +1,5 @@
 
-class Popup {
+  class Popup {
   constructor(popupElement) {
     this.popupElement = popupElement;
     this.open = this.open.bind(this);
@@ -16,7 +16,7 @@ class Popup {
   }
 }
 
-class PopUpWithSubmit extends Popup{
+ class PopUpWithSubmit extends Popup{
   constructor (popupElement){
     super(popupElement);
     this.form = popupElement.querySelector('form');
@@ -29,7 +29,7 @@ class PopUpWithSubmit extends Popup{
   }
 }
 
-class PopupEditUser extends PopUpWithSubmit {
+export class PopupEditUser extends PopUpWithSubmit {
   constructor(popupElement, userInfo, api) {
     super(popupElement);
     this.userInfo = userInfo;
@@ -51,7 +51,7 @@ class PopupEditUser extends PopUpWithSubmit {
   }
 }
 
-class PopupPl {
+export class PopupPl {
   constructor(popupElement) {
     this.popupElement = popupElement;
     this.open = this.open.bind(this);
@@ -71,7 +71,7 @@ class PopupPl {
 }
 
 
-class PopupPlWithForm extends PopUpWithSubmit {
+export class PopupPlWithForm extends PopUpWithSubmit {
   constructor(popupElement, cardList) {
     super(popupElement);
     this.cardList = cardList;
@@ -82,7 +82,7 @@ class PopupPlWithForm extends PopUpWithSubmit {
     }
 }
 
-class PopupAddCard extends PopUpWithSubmit {
+export class PopupAddCard extends PopUpWithSubmit {
   constructor(popupElement, cardList) {
     super(popupElement);
     this.cardList = cardList;
@@ -97,7 +97,7 @@ class PopupAddCard extends PopUpWithSubmit {
   }
 }
 
-class PopupZoom extends Popup{
+export class PopupZoom extends Popup{
   constructor(popupElement){
     super(popupElement);
     this.image = popupElement.querySelector('.popup-image__content');

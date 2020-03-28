@@ -1,4 +1,4 @@
-class Card {
+export class Card {
   constructor(popupZoom,placesContainer){
     this.popupZoom = popupZoom;
     this.placesContainer = placesContainer;

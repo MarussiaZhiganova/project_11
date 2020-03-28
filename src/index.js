@@ -1,3 +1,13 @@
+import "../pages/index.css";
+import {Api} from "./api.js";
+import {Card} from "./card.js";
+import {CardList} from "./cardList.js";
+import {FormValidator} from "./FormValidator.js";
+import {PopupEditUser, PopupAddCard, PopupZoom } from "./Popup.js";
+import {UserInfo} from "./UserInfo.js";
+import {Validator} from "./Validator.js";
+
+
 (function () {
 
 const ERROR_MESSAGES = {
