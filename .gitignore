@@ -1,4 +1,5 @@
 /node_modules
 /dist
 *.txt
-*.zip.DS_Store
+*.zip
+.DS_Store
