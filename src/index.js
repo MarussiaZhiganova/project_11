@@ -6,7 +6,7 @@ import {FormValidator} from "./FormValidator.js";
 import {PopupEditUser, PopupAddCard, PopupZoom } from "./Popup.js";
 import {UserInfo} from "./UserInfo.js";
 import {Validator} from "./Validator.js";
-
+import {serverUrl} from './config.js';
 
 (function () {
 
@@ -39,7 +39,7 @@ const ERROR_MESSAGES = {
 
 const card = new Card(popupZoom, placesContainer);
  const api = new Api ({
- baseUrl: 'https://praktikum.tk/cohort8',
+ serverUrl,
             headers: {
                    authorization: 'aabc310c-c163-48de-b35e-7be2de3c519d',
                    'Content-Type': 'application/json'
